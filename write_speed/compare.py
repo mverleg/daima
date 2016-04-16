@@ -21,11 +21,6 @@ if __name__ == '__main__':
 	)
 	ax.set_xscale('log')
 	ax.set_yscale('log')
-	fig, ax = plot_times(
-		times=(mem_times[1:], hd_times[1:], nfs_times[1:], tmp_times[1:]),
-		labels=('memory', 'hard disc', 'network', '/tmp'),
-	)
-	ax.set_yscale('log')
 
 
 if __name__ == '__main__':
